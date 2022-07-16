@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+
+import ReviewDetail from '../ReviewDetail/ReviewDetail'
+
 import './Home.css'
 
 const Home = () => {
+    const [reviews, setReviews] = useState([]);
+    useEffect(() => {
+        fetch('https://reviewebsit.free.beeceptor.com/')
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, [])
     return (
         <div >
             <div className='product-container'>
@@ -16,8 +25,16 @@ const Home = () => {
 
             <div className='review-container'>
                 <h1>Customer Reviews(3)</h1>
+
             </div>
 
+            {
+                reviews.map(review => <ReviewDetail
+                    key={review.ratting}
+                    reviewe={review}
+                ></ReviewDetail>)
+            }
+            <Link to='/reviews'> <button>See All Reviews</button></Link>
         </div>
 
 
