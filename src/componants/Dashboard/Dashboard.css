@@ -1,0 +1,9 @@
+.chart {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+
+    margin-top: 50px;
+    margin-left: 50px;
+}
