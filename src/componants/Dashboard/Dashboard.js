@@ -93,9 +93,9 @@ const Dashboard = () => {
             >
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month">
-                    <Label value="Pages of my website" offset={0} position="insideBottom" />
+                    <Label value="" offset={0} position="insideBottom" />
                 </XAxis>
-                <YAxis label={{ value: 'pv of page', angle: -90, position: 'insideLeft', textAnchor: 'middle' }} />
+                <YAxis label={{ value: '', angle: -90, position: 'insideLeft', textAnchor: 'middle' }} />
                 <Tooltip></Tooltip>
                 <Bar dataKey="investment" fill="#8884d8">
                     <LabelList dataKey="revenue" position="insideTop" angle="45" />

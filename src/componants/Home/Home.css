@@ -5,6 +5,31 @@
     grid-gap: 500px;
 }
 
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+    margin-left: 200px;
+
+}
+
+#btn {
+    margin-right: 300px;
+    margin-top: 50px;
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 200px;
+    border-color: gray;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+#btn a:hover {
+    background-color: blue;
+}
+
 .product-name img {
     margin-top: 40px;
 
@@ -26,8 +51,9 @@
     margin: 100px 0 0 100px;
 }
 
-.review-container {
+.header {
     margin-top: 150px;
+    margin-bottom: 100px;
     text-decoration: underline;
     color: blue;
 }

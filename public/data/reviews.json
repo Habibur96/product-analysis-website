@@ -1,37 +1,37 @@
 [
     {
         "name": "Jahid",
-        "ratting": 1,
+        "ratting": 4,
         "review": "DJI Mavic 2 Pro is every aerial photographer's dream. Offering the best camera performance from a portable DJI drone, DJI Mavic 2 Pro offers you an industry-leading Hasselblad camera, 10-bit Dlog-M color profile, and adjustable aperture. This all translates to better details, vivid colors, and more professional camera options. If you are looking for one of the best camera drones on the market, DJI Mavic 2 Pro has everything you need.",
         "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "name": "Nahid",
-        "ratting": 2,
+        "ratting": 5,
         "review": "If creative videography and filmmaking is your thing, DJI Mavic 2 Zoom is the only DJI camera drone with a built-in optical zoom camera, giving you exceptional detail without forcing you to fly too close to your subject. Add 48MP Super Resolution Photo and Dolly Zoom to the picture, and you are looking at one of the best creative filmmaking drones out there.",
         "img": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "name": "Rakib",
-        "ratting": 3,
+        "ratting": 5,
         "review": "nspired by the dream of flight, the DJI Phantom 4 Pro V2.0 is a professional 4K camera drone that sets the standard for professional drone photography. It contains a mechanical shutter that lets you freeze high-speed objects with exceptional clarity. A 1-inch 20MP camera is combined with Cinema 4K/60fps video, 14fps Burst Mode, and obstacle sensors to give you the best professional drone experience.",
         "img": "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?t=st=1657920975~exp=1657921575~hmac=c4f4dddd14b98c090f4e53c915c733e160390a5865bdd5d756edb779d2b897b3&w=826"
     },
     {
         "name": "Anik",
-        "ratting": 4,
+        "ratting": 6,
         "review": "DJI Air 2S is a powerful all-in-one camera drone designed for creators on the move. It offers a 1-inch CMOS sensor, 5.4K video recording, an innovative MasterShots feature, 12km 1080p video transmission, four-directional obstacle sensing, and more. DJI Air 2S is the perfect way to turn any adventure into a stunning visual creation.",
         "img": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=1380"
     },
     {
         "name": "Mahi",
-        "ratting": 5,
+        "ratting": 4,
         "review": "DJI Mini 3 Pro maintains the lightweight design synonymous with the Mini series and weighs less than 249 g. It features a 1/1.3-inch CMOS sensor, dual native ISO, and 4K HDR video recording to deliver a great leap in imaging performance. Moreover, it integrates not only creative design, intelligent features, and a tri-directional obstacle sensing system but also supports True Vertical Shooting and FocusTrack, redefining your aerial photography experience.",
         "img": "https://img.freepik.com/premium-photo/portrait-young-handsome-man-wearing-brown-sweater_251136-34048.jpg?w=1380"
     },
     {
         "name": "Abir",
-        "ratting": 6,
+        "ratting": 5,
         "review": "Inspired by the dream of flight, the DJI Phantom 4 Pro V2.0 is a professional 4K camera drone that sets the standard for professional drone photography. It contains a mechanical shutter that lets you freeze high-speed objects with exceptional clarity. A 1-inch 20MP camera is combined with Cinema 4K/60fps video, 14fps Burst Mode, and obstacle sensors to give you the best professional drone experience.",
         "img": "https://img.freepik.com/premium-photo/handsome-young-businessman-shirt-eyeglasses_85574-6228.jpg?w=900"
     }

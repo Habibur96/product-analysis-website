@@ -5,13 +5,16 @@ import ReviewDetail from '../ReviewDetail/ReviewDetail'
 
 import './Home.css'
 
+
 const Home = () => {
     const [reviews, setReviews] = useState([]);
+
     useEffect(() => {
-        fetch('https://reviewebsit.free.beeceptor.com/')
+        fetch('https://drown.free.beeceptor.com/')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
+
     return (
         <div >
             <div className='product-container'>
@@ -23,22 +26,30 @@ const Home = () => {
                 <img src="https://5.imimg.com/data5/SM/WM/MY-66755087/drone-camera-500x500.jpg" alt="" />
             </div>
 
-            <div className='review-container'>
-                <h1>Customer Reviews(3)</h1>
+            <h2 className='header'>Customer Reviews(3)</h2>
 
+            <div className='review-container'>
+
+                {
+                    reviews.map(review =>
+
+                        <ReviewDetail
+                            key={review.ratting}
+                            reviewe={review}
+                        ></ReviewDetail>)
+
+                }
+                <br /> <br />
+                <Link to='/reviews'> <button id='btn'>See All Reviews</button></Link>
             </div>
 
-            {
-                reviews.map(review => <ReviewDetail
-                    key={review.ratting}
-                    reviewe={review}
-                ></ReviewDetail>)
-            }
-            <Link to='/reviews'> <button>See All Reviews</button></Link>
         </div>
 
-
     );
+
 };
 
+
+
 export default Home;
+
