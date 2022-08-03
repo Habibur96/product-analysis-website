@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react';
+
+
 import { Link } from 'react-router-dom';
+import useReviews from '../../hook/useReviews';
 
 import ReviewDetail from '../ReviewDetail/ReviewDetail'
 
@@ -7,13 +9,8 @@ import './Home.css'
 
 
 const Home = () => {
-    const [reviews, setReviews] = useState([]);
+    const [reviews, setReviews] = useReviews([]);
 
-    useEffect(() => {
-        fetch('https://drown.free.beeceptor.com/')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, [])
 
     return (
         <div >
@@ -31,10 +28,10 @@ const Home = () => {
             <div className='review-container'>
 
                 {
-                    reviews.map(review =>
+                    reviews.slice(0, 3).map(review =>
 
                         <ReviewDetail
-                            key={review.ratting}
+                            key={review.name}
                             reviewe={review}
                         ></ReviewDetail>)
 
