@@ -1,8 +1,11 @@
-# Product-analysis-website
+# product-analysis-website
 ## Live Link
 ##
-* Noyon
-
+* In this project, I have added (Home, Reviews, Dashboard, Blogs)
+* Home:- Here, I added a cemera drones picture and briefly description. Then, added three user reviews with their photo, name, ratting and comments. And also added a button(seel all reviews).
+* Reviews:- In this part, we can see all reviews.
+* Dashboard:- Here, we can see four type of chart. This chart is created on some data. And also uses tooltips.
+* Blogs:- In this blog part, I have given answer two questions using accordion.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
