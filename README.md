@@ -1,5 +1,5 @@
-# product-analysis-website
-## Live Link:
+# Product-Analysis-Website
+## Repo Link:
 ## https://sweet-froyo-58061d.netlify.app/
 * In this project, I have added (Home, Reviews, Dashboard, Blogs)
 * Home:- Here, I added a cemera drones picture and briefly description. Then, added three user reviews with their photo, name, ratting and comments. And also added a button(seel all reviews).
